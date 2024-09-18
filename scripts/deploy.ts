@@ -25,7 +25,7 @@ async function main() {
     ));
   } catch (error: any) {
   console.log('====================================');
-  console.log(err);
+  console.log(e);
   console.log('====================================');
     console.log("Failed to read contract files");
     process.exit(1);
